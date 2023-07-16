@@ -1,0 +1,47 @@
+.contenr{
+    max-width: 400px;
+    margin: 20vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153 ,153 ,1 );
+    border-radius: 8px;
+
+
+}
+.display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px ;
+    font-size: 25px;
+    overflow: hidden;
+}
+.buttons{
+    display: grid;
+    border-top: 1px solid black;
+    grid-template-columns: auto auto auto auto ;
+}
+
+.button > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+
+}
+
+.button{
+    transition: .3s;
+    border: none;
+    height: 40px;
+    background-color: black;
+    box-shadow: 5px 5px 5px 0px rgb(39, 38, 38);
+    border-radius: 8px;
+    margin: 7px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+#equal{
+    background-color: rgb(31, 31, 199);
+}
